@@ -290,6 +290,8 @@ The function ``get_node()`` looks at the Sprite2D's children and gets nodes by
 their name. For example, if you renamed the Timer node to "BlinkingTimer" in the
 editor, you would have to change the call to ``get_node("BlinkingTimer")``.
 
+You can also use the $ sign as a shortcut to replace ``get_node("yourtimersname")
+
 .. add seealso to a page that explains node features.
 
 We can now connect the Timer to the Sprite2D in the ``_ready()`` function.
